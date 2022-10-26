@@ -7,12 +7,27 @@
   --description-color: #757575;
   --button-colr: #f5f4fa;
 }
-
 .blue {
   color: var(--blue-color);
   text-decoration: none;
 }
-
+.mail-icon {
+  margin-right: 10px;
+}
+.phone-icon {
+  margin-right: 5px;
+}
+.icon-div {
+  display: flex;
+  align-items: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+.icon-1 {
+}
 body {
   font-family: "Roboto", sans-serif;
   color: var(--font-color);
@@ -42,7 +57,12 @@ h1 {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  background-color: var(--footer-color);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(/images/bg-img.jpg);
+  background-repeat: round;
 }
 .lorem-list {
   margin: 94px 0;
@@ -67,10 +87,6 @@ h1 {
   display: flex;
   justify-content: center;
   gap: 30px;
-}
-.contacts-list {
-  justify-content: space-between;
-  gap: 50px;
 }
 .container {
   width: 1200px;
@@ -101,6 +117,10 @@ h1 {
   color: var(--blue-color);
 }
 
+.contacts-list {
+  justify-content: space-between;
+  gap: 30px;
+}
 .contacts {
   font-size: 14px;
   font-weight: 500;
@@ -127,6 +147,7 @@ h1 {
 }
 .contacts:hover {
   color: var(--blue-color);
+  stroke: var(--blue-color);
 }
 
 .main-header {
