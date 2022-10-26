@@ -26,7 +26,28 @@
   height: 120px;
   margin-bottom: 30px;
 }
-.icon-1 {
+.client-logo-1 {
+  fill: black;
+}
+.client-list li {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+}
+.client-list li:hover {
+  fill: #2196f3;
+  border: 1px solid var(--blue-color);
+  cursor: pointer;
+}
+.client-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 94px;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -188,6 +209,7 @@ h1 {
 }
 .worker-section {
   padding-top: 94px;
+  margin-bottom: 94px;
   background-color: var(--button-colr);
 }
 .worker-caption {
