@@ -77,8 +77,7 @@ h1 {
   height: 120px;
   margin-bottom: 30px;
 }
-.client-logo-1 {
-  fill: black;
+.client-logo {
 }
 .client-list li {
   justify-content: center;
@@ -88,9 +87,11 @@ h1 {
   border-radius: 4px;
   width: 170px;
   height: 92px;
+  fill: #afb1b8;
 }
-.client-list li:hover {
-  fill: #2196f3;
+.client-list li:hover,
+.client-list li:focus {
+  fill: var(--blue-color);
   border: 1px solid var(--blue-color);
   cursor: pointer;
 }
@@ -384,6 +385,7 @@ h1 {
 }
 .footer-footer {
   padding-top: 60px;
+  display: block;
 }
 .footer-contacts:hover {
   color: var(--blue-color);
