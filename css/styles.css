@@ -102,6 +102,11 @@ h1 {
 .antenna {
   padding-left: 100px;
 }
+.main-photos:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+}
 .navigation {
   justify-content: space-between;
   gap: 46px;
