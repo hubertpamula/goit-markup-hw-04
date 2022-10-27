@@ -393,3 +393,23 @@ h1 {
 footer {
   background-color: var(--footer-color);
 }
+.social-header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.social-link-dark {
+  background: rgba(255, 255, 255, 0.1);
+}
+.social-links {
+  justify-content: space-between;
+  gap: 10px;
+}
+.aaa {
+  width: 206px;
+}
