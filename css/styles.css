@@ -77,8 +77,6 @@ h1 {
   height: 120px;
   margin-bottom: 30px;
 }
-.client-logo {
-}
 .client-list li {
   justify-content: center;
   align-items: center;
@@ -385,7 +383,7 @@ h1 {
 }
 .footer-footer {
   padding-top: 60px;
-  display: block;
+  display: flex;
 }
 .footer-contacts:hover {
   color: var(--blue-color);
@@ -412,4 +410,5 @@ footer {
 }
 .social-links-wrapper {
   width: 206px;
+  margin-left: 70px;
 }
