@@ -7,6 +7,19 @@
   --description-color: #757575;
   --button-colr: #f5f4fa;
 }
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--font-color);
+  margin: 0;
+  padding: 0;
+}
+ul,
+h1 {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
 .blue {
   color: var(--blue-color);
   text-decoration: none;
@@ -16,6 +29,44 @@
 }
 .phone-icon {
   margin-right: 5px;
+}
+.icon-ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  width: 206px;
+  height: 44px;
+  margin: auto;
+  margin-top: 16px;
+  padding-bottom: 30px;
+}
+.icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  fill: #afb1b8;
+}
+.icon-link:hover,
+.icon-link:focus {
+  background-color: var(--blue-color);
+  cursor: pointer;
+  fill: var(--main-color);
+}
+.icon-li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .icon-div {
   display: flex;
@@ -51,19 +102,6 @@
 }
 .antenna {
   padding-left: 100px;
-}
-body {
-  font-family: "Roboto", sans-serif;
-  color: var(--font-color);
-  margin: 0;
-  padding: 0;
-}
-ul,
-h1 {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
 }
 .navigation {
   justify-content: space-between;
@@ -217,7 +255,7 @@ h1 {
 }
 .worker-caption {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: px;
 }
 
 .main-button {
