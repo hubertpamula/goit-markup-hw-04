@@ -33,7 +33,6 @@ h1 {
 .icon-ul {
   display: flex;
   align-items: center;
-  justify-content: space-around;
   gap: 10px;
   width: 206px;
   height: 44px;
@@ -60,13 +59,9 @@ h1 {
 }
 .icon-li {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .icon {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .icon-div {
   display: flex;
@@ -95,7 +90,6 @@ h1 {
 }
 .client-list {
   display: flex;
-  justify-content: space-between;
   gap: 30px;
   margin-bottom: 94px;
 }
@@ -133,11 +127,9 @@ h1 {
 }
 .lorem-list {
   margin: 94px 0;
-  justify-content: space-between;
   gap: 30px;
 }
 .job-list {
-  justify-content: space-between;
   gap: 30px;
   margin-bottom: 94px;
 }
@@ -185,7 +177,6 @@ h1 {
 }
 
 .contacts-list {
-  justify-content: space-between;
   gap: 30px;
 }
 .contacts {
@@ -414,7 +405,6 @@ footer {
   background: rgba(255, 255, 255, 0.1);
 }
 .social-links {
-  justify-content: space-between;
   gap: 10px;
 }
 .social-links-wrapper {
